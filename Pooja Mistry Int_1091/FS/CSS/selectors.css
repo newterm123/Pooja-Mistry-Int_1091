@@ -1,0 +1,91 @@
+
+#firstletter::first-letter{
+    color: #c42222;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#highlight::first-line{
+    background-color: #f8ef8f;
+    color: black;
+    font-weight: bold;
+}
+
+#Note::before{
+    color: #c42222;
+    content: "NOTE: ";
+    font-weight: bold;
+}
+
+#Copy-right::after{
+    content: " © 2026 ";
+}
+
+#tasklist li:first-child{
+    color: #ef1010;
+}
+
+#tasklist li:nth-child(2){
+    font-weight: bold;
+}
+
+#tasklist li:last-child{
+    color: #33c7f0;
+}
+
+#list li:nth-child(odd){
+    background-color: #f7caf3;
+}
+
+#list li:nth-child(even){
+    background-color: #be7cdf;
+}
+
+a[target="_blank"]{
+    color: #c42222;
+}
+
+a[href="^https"]
+{
+    font-weight: bold;
+}
+
+a:hover{
+    color: #50e735;
+}
+
+img[src$=".jpg"]{
+    border: 5px solid #b75b19;
+}
+
+input[placeholder*="field"]{
+    background-color: #9ddaf5;
+}
+
+& .container p{
+    color: #6e9819;
+
+}
+
+.child > p {
+    color: rgb(45, 22, 176);
+}
+
+h2 + p {
+    color:#edaa52;
+}
+
+h2 ,p{
+    font-style: italic;
+}
+
+input:focus{
+    border: 2px solid #350a80;
+    outline:none;
+    background-color: #f7caf3;
+}
+
+input:checked + label{
+    color: #b75b19;
+    font-weight: bold;
+}
