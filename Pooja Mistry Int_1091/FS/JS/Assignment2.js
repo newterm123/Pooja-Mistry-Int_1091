@@ -1,10 +1,10 @@
 
 //Assignment 2: Login Validation System
 
-let correctUsername = "Urvesh";
+let correctUsername = "Pooja";
 let correctPassword = "45455";
 
-let username = "Urvesh";
+let username = "Pooja";
 let password = "45455";
 
 if (username === correctUsername && password === correctPassword) {
